@@ -1,0 +1,61 @@
+{
+  "channels": {
+    "coast": {
+      "center": 0,
+      "scale": 10,
+      "weight": 2
+    },
+    "inland": {
+      "center": 0,
+      "scale": 5,
+      "weight": 1
+    }
+  },
+  "reference": [
+    {
+      "coast": 0,
+      "inland": 0
+    },
+    {
+      "coast": 5,
+      "inland": 2
+    },
+    {
+      "coast": 20,
+      "inland": 8
+    },
+    {
+      "coast": 3,
+      "inland": 1
+    }
+  ],
+  "candidate": [
+    {
+      "coast": 0,
+      "inland": 0
+    },
+    {
+      "coast": 2,
+      "inland": 1
+    },
+    {
+      "coast": 6,
+      "inland": null
+    },
+    {
+      "coast": 18,
+      "inland": 7
+    },
+    {
+      "coast": 4,
+      "inland": 1
+    }
+  ],
+  "min_channels": 1,
+  "index_band": 2,
+  "run_limit": 2,
+  "solver": {
+    "tolerance": 1e-10,
+    "state_budget": 100000
+  }
+}
